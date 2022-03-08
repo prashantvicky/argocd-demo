@@ -8,7 +8,7 @@ spec:
   selector:
     matchLabels:
       app: nginx
-  replicas: 2
+  replicas: 3
   template: # create pods using pod definition in this template
     metadata:
       labels:
